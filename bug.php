@@ -1,0 +1,1 @@
+This code exhibits an uncommon PHP bug related to how PHP handles references and object properties within loops.  Specifically, when modifying object properties inside a loop, unexpected behavior may arise if references are involved. This example demonstrates such a case where all elements of the array end up having the same value unexpectedly.
